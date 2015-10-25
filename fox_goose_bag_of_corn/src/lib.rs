@@ -1,21 +1,16 @@
 #[derive(Debug, PartialEq, Clone, Copy)]
-pub enum Actor {
-	Fox, Goose, Corn, You
+pub enum Position {
+    West, Boat, East
 }
 
 #[derive(Debug, PartialEq)]
-pub struct Positions {
-	pub west: Vec<Actor>,
-	pub boat: Vec<Actor>,
-	pub east: Vec<Actor>
+pub struct Situation {
+    pub fox_position: Position,
+    pub goose_position: Position,
+    pub corn_position: Position,
+    pub your_position: Position
 }
 
-impl Positions {
-	pub fn new(west: Vec<Actor>, boat: Vec<Actor>, east: Vec<Actor>) -> Positions {
-		Positions {west: west, boat: boat, east: east}
-	}
-}
-
-pub fn crossing_plan() -> Vec<Positions> {
-	panic!("implement")
+pub fn crossing_plan() -> Vec<Situation> {
+    panic!("implement")
 }
