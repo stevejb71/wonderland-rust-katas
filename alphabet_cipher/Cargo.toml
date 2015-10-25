@@ -1,0 +1,4 @@
+[package]
+name = "alphabet_cipher"
+version = "0.1.0"
+authors = ["stevejb71 <stevejb71@yahoo.co.uk>"]
