@@ -6,9 +6,10 @@ a constant sum.
 
 ![caterpillar](/images/caterpillar.gif)
 
-You have the following values:
+Lewis Carroll's original magic square used Victorian postal values, which were, in old English pennies :
 
 ```
+0.5
 1.0
 1.5
 2.0
@@ -16,7 +17,6 @@ You have the following values:
 3.0
 3.5
 4.0
-4.5
 5.0
 ```
 
