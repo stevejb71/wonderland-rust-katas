@@ -7,7 +7,7 @@ the grass around her seemed like a maze.
 
 This is a tiny maze solver.
 
-A maze is represented by a matrix
+A maze is represented by a matrix (in Rust, a Vector of enums)
 
 ```
 [[S 0 1]
