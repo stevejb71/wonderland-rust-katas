@@ -6,10 +6,10 @@ a constant sum.
 
 ![caterpillar](/images/caterpillar.gif)
 
-Lewis Carroll's original magic square used Victorian postal values, which were, in old English pennies :
+You have the following values:
 
 ```
-½d, 1½d, 2d, 2½d, 3d, 3½d, 4d, 5d
+1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0
 ```
 
 You need to arrange them in a 3 x 3 matrix so that:
